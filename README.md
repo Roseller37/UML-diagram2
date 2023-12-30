@@ -150,3 +150,5 @@
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | registered_user_id| int |
 | Content Cell  | Content Cell  | 
+表3-1 registered user表
+

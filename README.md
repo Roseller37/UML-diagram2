@@ -158,18 +158,56 @@
 | user_id | int | 11 | 是 | 否 | 用戶ID |
 | create_time | datetime | 0 | 是 | 否 | 創鍵時間 |
 | update_time | timestamp | 0 | 是 | 否 | 更新時間 |
+
 <br></br>
-###### 表3-2 registered_user表
+###### 表3-2 train_number表
 | 名稱        | 類型   | 長度  | 不是null | 主鍵  | 注釋     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| registered_user_id| int | 11 | 是 | 是 | 註冊用戶ID|
-| user_number | varchar | 64 | 是 | 否 | 用戶編號 |
+| train_number_id | int | 11 | 是 | 是 | 火車車次ID |
+| train_number | varchar | 64 | 否 | 否 | 列車號 |
+| departure_station | varchar | 64 | 否 | 否 | 始發站 |
+| terminus | varchar | 64 | 否 | 否 | 終點站 |
+| timetable | text | 0 | 否 | 否 | 時刻表 |
+| date | date | 0 | 否 | 否 | 日期 |
+| price | int | 11 | 否 | 否 | 價格 |
+| departure_time | datetime | 0 | 否 | 否 | 出發時間 |
+| title | varchar | 64 | 否 | 否 | 標題 |
+| hits | int | 11 | 是| 否 | 點擊數 |
 | examine_state | varchar | 16 | 是 | 否 | 審核狀態 |
 | recommend | int | 11 | 是 | 否 | 智能推薦 |
-| user_id | int | 11 | 是 | 否 | 用戶ID |
 | create_time | datetime | 0 | 是 | 否 | 創鍵時間 |
 | update_time | timestamp | 0 | 是 | 否 | 更新時間 |
 
 <br></br>
+###### 表3-3 order_refund表
+| 名稱        | 類型   | 長度  | 不是null | 主鍵  | 注釋     |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| order_refund_id | int | 11 | 是 | 是 | 訂單退票ID |
+| order_number | varchar | 64 | 否 | 否 | 訂單號 |
+| train_number | varchar | 64 | 否 | 否 | 列車號 |
+| date | date | 0 | 否 | 否 | 日期 |
+| reason_for_refund | text | 0 | 否 | 否 | 退票原因 |
+| user_number | int | 11 | 否 | 否 | 用戶編號 |
+| examine_state | varchar | 16 | 是 | 否 | 審核狀態 |
+| examine_reply | varchar | 255 | 否 | 否 | 審核回復 |
+| recommend | int | 11 | 是 | 否 | 智能推薦 |
+| create_time | datetime | 0 | 是 | 否 | 創鍵時間 |
+| update_time | timestamp | 0 | 是 | 否 | 更新時間 |
+
+<br></br>
+###### 表3-4 order_change表
+| 名稱        | 類型   | 長度  | 不是null | 主鍵  | 注釋     |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| order_change_id | int | 11 | 是 | 是 | 訂單改簽ID |
+| order_number | varchar | 64 | 否 | 否 | 訂單號 |
+| train_number | varchar | 64 | 否 | 否 | 列車號 |
+| date | date | 0 | 否 | 否 | 日期 |
+| user_number | int | 11 | 否 | 否 | 用戶編號 |
+| change_time | datetime | 0 | 否 | 否 | 改簽時間 |
+| train | varchar | 64 | 否 | 否 | 改簽列車號 |
+| examine_state | varchar | 16 | 是 | 否 | 審核狀態 |
+| recommend | int | 11 | 是 | 否 | 智能推薦 |
+| create_time | datetime | 0 | 是 | 否 | 創鍵時間 |
+| update_time | timestamp | 0 | 是 | 否 | 更新時間 |
 
 

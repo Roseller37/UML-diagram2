@@ -156,7 +156,8 @@
 | create_time | datetime | 0 | 是 | 否 | 創鍵時間 |
 | update_time | timestamp | 0 | 是 | 否 | 更新時間 |
 
-表3-1 registered_user表<br></br>
+表3-1 registered_user表
+<br></br><br></br>
 | 名稱        | 類型   | 長度  | 不是null | 主鍵  | 注釋     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | registered_user_id| int | 11 | 是 | 是 | 註冊用戶ID|

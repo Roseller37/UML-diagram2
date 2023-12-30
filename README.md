@@ -157,8 +157,7 @@
 | recommend | int | 11 | 是 | 否 | 智能推薦 |
 | user_id | int | 11 | 是 | 否 | 用戶ID |
 | create_time | datetime | 0 | 是 | 否 | 創鍵時間 |
-| update_time | timestamp | 0 | 是 | 否 | 更新時間 |
-
+| update_time | timestamp | 0 | 是 | 否 | 更新時間 |  
 <br></br>
 ###### 表3-2 registered_user表
 | 名稱        | 類型   | 長度  | 不是null | 主鍵  | 注釋     |

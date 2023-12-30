@@ -232,17 +232,17 @@
 ### 詳細設計
 #### 4.2.1系統主要功能模組介面圖
 ###### 圖4-2 用戶端首頁
-![image]()
+![image](https://github.com/Roseller37/UML-diagram2/blob/main/image/%E7%B3%BB%E7%B5%B1%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84%E4%BB%8B%E9%9D%A2%E5%9C%96/%E5%9C%964-2%20%E7%94%A8%E6%88%B6%E7%AB%AF%E9%A6%96%E9%A0%81.png)
 ###### 圖4-3 車次資訊介面
-![image]()
+![image](https://github.com/Roseller37/UML-diagram2/blob/main/image/%E7%B3%BB%E7%B5%B1%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84%E4%BB%8B%E9%9D%A2%E5%9C%96/%E5%9C%964-3%20%E8%BB%8A%E6%AC%A1%E8%B3%87%E8%A8%8A%E4%BB%8B%E9%9D%A2.png)
 ###### 圖4-4 用戶購票訂單
-![image]()
+![image](https://github.com/Roseller37/UML-diagram2/blob/main/image/%E7%B3%BB%E7%B5%B1%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84%E4%BB%8B%E9%9D%A2%E5%9C%96/%E5%9C%964-4%20%E7%94%A8%E6%88%B6%E8%B3%BC%E7%A5%A8%E8%A8%82%E5%96%AE.png)
 ###### 圖4-5 用戶改簽訂單
-![image]()
+![image](https://github.com/Roseller37/UML-diagram2/blob/main/image/%E7%B3%BB%E7%B5%B1%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84%E4%BB%8B%E9%9D%A2%E5%9C%96/%E5%9C%964-5%20%E7%94%A8%E6%88%B6%E6%94%B9%E7%B0%BD%E8%A8%82%E5%96%AE.png)
 ###### 圖4-6 車次管理介面
-![image]()
+![image](https://github.com/Roseller37/UML-diagram2/blob/main/image/%E7%B3%BB%E7%B5%B1%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84%E4%BB%8B%E9%9D%A2%E5%9C%96/%E5%9C%964-6%20%E8%BB%8A%E6%AC%A1%E7%AE%A1%E7%90%86%E4%BB%8B%E9%9D%A2.png)
 ###### 圖4-7 退票管理介面
-![image]()
+![image](https://github.com/Roseller37/UML-diagram2/blob/main/image/%E7%B3%BB%E7%B5%B1%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD%E6%A8%A1%E7%B5%84%E4%BB%8B%E9%9D%A2%E5%9C%96/%E5%9C%964-7%20%E9%80%80%E7%A5%A8%E7%AE%A1%E7%90%86%E4%BB%8B%E9%9D%A2.png)
 
 #### 4.2.2系統模組程式流程圖
 **1.註冊模組的實現**

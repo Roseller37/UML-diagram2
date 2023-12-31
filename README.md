@@ -271,11 +271,11 @@
 客戶先透過網站系統查詢各種情況(票的價格，車的情況，以及一些鐵路狀況)，再透過系統資料庫給予與的即時資訊提示去預定想要的火車票，完成訂票的過程，客戶也可以透過網站系統對自己已經訂購的票進行退訂手續。管理員可以修改票務訊息，修改變動後的時間以及車票價格等等。
 
 ###### 圖5-1 系統用例圖
-![image]()
+![image](https://github.com/Roseller37/UML-diagram2/blob/main/image/UML%E6%A8%A1%E5%9E%8B%E5%9C%96/%E5%9C%965-1%20%E7%B3%BB%E7%B5%B1%E7%94%A8%E4%BE%8B%E5%9C%96.png)
 ###### 圖5-2 系統功能類圖
-![image]()
+![image](https://github.com/Roseller37/UML-diagram2/blob/main/image/UML%E6%A8%A1%E5%9E%8B%E5%9C%96/%E5%9C%965-2%20%E7%B3%BB%E7%B5%B1%E5%8A%9F%E8%83%BD%E9%A1%9E%E5%9C%96.png)
 ###### 圖5-3 系統功能時序圖
-![image]()
+![image](https://github.com/Roseller37/UML-diagram2/blob/main/image/UML%E6%A8%A1%E5%9E%8B%E5%9C%96/%E5%9C%965-3%20%E7%B3%BB%E7%B5%B1%E5%8A%9F%E8%83%BD%E6%99%82%E5%BA%8F%E5%9C%96.png)
 
 # 參考資料
 [火車訂票管理系統](https://blog.csdn.net/dawnlini/article/details/128236315)
